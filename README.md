@@ -84,6 +84,8 @@ Optional
 
      Сделать реализация через Java 8 Stream API. Заменяйте forEach оператором stream.map(..)
 
+<a href="http://stackoverflow.com/questions/28319064/java-8-best-way-to-transform-a-list-map-or-foreach">stream.map vs forEach</a>
+
 ### Ресурсы для подготовки к проекту 
 #### (желательно иметь представление для лучшего усвоения материала)
 
