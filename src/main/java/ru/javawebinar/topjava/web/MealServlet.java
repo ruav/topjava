@@ -2,7 +2,7 @@ package ru.javawebinar.topjava.web;
 
 import ru.javawebinar.topjava.LoggerWrapper;
 import ru.javawebinar.topjava.model.UserMeal;
-import ru.javawebinar.topjava.repository.InMemoryUserMealRepositoryImpl;
+import ru.javawebinar.topjava.repository.mock.InMemoryUserMealRepositoryImpl;
 import ru.javawebinar.topjava.repository.UserMealRepository;
 import ru.javawebinar.topjava.util.UserMealsUtil;
 
@@ -20,7 +20,7 @@ import java.util.Objects;
  * Date: 19.08.2014
  */
 public class MealServlet extends HttpServlet {
-    private static final LoggerWrapper LOG = LoggerWrapper.get(MealServlet.class);
+    private static final LoggerWrapper LOG = LoggerWrapper.get  (MealServlet.class);
 
     private UserMealRepository repository;
 
